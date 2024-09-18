@@ -41,7 +41,7 @@
 > - [ ] Run the CFT YAML file.  You will need to enter the S3 bucket and IAM role as parameters to run the CFT YAML file
 > - [ ] Create an input JSON file for the state machine based upon the example JSON and the descriptions below
 > - [ ] Execute the State machine and pass it your input JSON.
-> - [ ] Last step/state in the state machine will include an overview of all restores that ran.
+> - [ ] Velero backup file (URI) is updated with new snapshot ids
 
 ![Alt text](eks_ebs_restore.png)
 
