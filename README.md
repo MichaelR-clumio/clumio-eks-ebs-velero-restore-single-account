@@ -41,7 +41,8 @@
 > - [ ] Run the CFT YAML file.  You will need to enter the S3 bucket and IAM role as parameters to run the CFT YAML file
 > - [ ] Create an input JSON file for the state machine based upon the example JSON and the descriptions below
 > - [ ] Execute the State machine and pass it your input JSON.
-> - [ ] Velero backup file (URI) is updated with new snapshot ids
+> - [ ] Snapshots for all of the EBS resources identified in the backup file are created in the targe location.
+> - [ ] Last step of autoatmion updates the Velero backup file (URI) with new snapshot ids
 
 ![Alt text](eks_ebs_restore.png)
 
