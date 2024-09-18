@@ -35,6 +35,7 @@
 > YAML file clumio-eks-ebs-restore-deploy-cft-sa.yaml is the CloudFormation (CFT) deployment template.  Deploy this CFT template to setup the solution
 
 > [!TIP]
+> - [ ] A Clumio backup of each of the EBS resources in the Velero backup file must exist for the automation to complete successfully. 
 > - [ ] Identify a S3 bucket where zip file can be copied.
 > - [ ] Identify an IAM Role that has the capability to run both the lambda functions and the state machine
 > - [ ] Copy ZIP file from the git repository to the S3 bucket
