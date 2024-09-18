@@ -56,11 +56,11 @@
 | velero_file_s3_uri               | URI location of original Velero backup file                                                                 |
 | velero_file_s3_uri_test          | If you dont want to overwrite the original file, URI location to write new Velero backup file               |
 | velero_file_segment_size         | Step function batch job size - maximum value is 40                                                          |
-| source_account                   | AWS account from which the ec2 resources where backed up                                                    |
-| source_region                    | AWS region from which the ec2 resources where backed up                                                     |
+| source_account                   | AWS account from which the ebs resources where backed up                                                    |
+| source_region                    | AWS region from which the ebs resources where backed up                                                     |
 | end_search_day_offset            | This represents the offset from the current day to the max search time                                      |
-| target_account                   | AWS account where the ec2 resource is to be restored                                                        |
-| target_region                    | AWS region where the ec2 resource is to be restored                                                         |
+| target_account                   | AWS account where the ebs resource is to be restored                                                        |
+| target_region                    | AWS region where the ebs resource is to be restored                                                         |
 | target_aws_az                    | required, infrastructure value for restore AWS AZ                                                           |
 | target_iops                      | optional, infrastructure value for EBS iops setting                                                         |
 | target_volume_type               | optional, infrastructure value for EBS volume type setting                                                  |                                     |
