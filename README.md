@@ -43,7 +43,7 @@
 > - [ ] Execute the State machine and pass it your input JSON.
 > - [ ] Last step/state in the state machine will include an overview of all restores that ran.
 
-![Alt text](bulk_ec2_restore_screenshot.png)
+![Alt text](eks_ebs_restore.png)
 
 > [!WARNING]
 > FOR EXAMPLE PURPOSES ONLY
