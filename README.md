@@ -55,7 +55,7 @@
 | bear                             | Clumio API bearer token https://help.clumio.com/docs/api-tokens                                             |
 | velero_file_s3_uri               | URI location of original Velero backup file                                                                 |
 | velero_file_s3_uri_test          | If you dont want to overwrite the original file, URI location to write new Velero backup file               |
-! velero_file_segment_size         ! Step function batch job size - maximum value is 40                                                          |
+| velero_file_segment_size         | Step function batch job size - maximum value is 40                                                          |
 | source_account                   | AWS account from which the ec2 resources where backed up                                                    |
 | source_region                    | AWS region from which the ec2 resources where backed up                                                     |
 | end_search_day_offset            | This represents the offset from the current day to the max search time                                      |
